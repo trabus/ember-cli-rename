@@ -2,5 +2,10 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-cli-rename'
+  name: 'ember-cli-rename',
+  includedCommands: function() {
+    return {
+      rename: require('./lib/commands/rename')
+    };
+  }
 };
