@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-rename",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A rename command for ember-cli.",
   "directories": {
     "doc": "doc",
@@ -46,7 +46,8 @@
     "fs-extra": "^0.20.0",
     "lodash": "^3.9.3",
     "rsvp": "^3.0.18",
-    "silent-error": "^1.0.0"
+    "silent-error": "^1.0.0",
+    "ember-cli-mv": "^0.0.4"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
